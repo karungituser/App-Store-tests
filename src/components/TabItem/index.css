@@ -1,0 +1,26 @@
+/* Write your CSS here */
+
+.tab-btn {
+  color: #7b8794;
+  font-size: 18px;
+  font-family: 'Bree Serif';
+  background-color: transparent;
+  border: none;
+  padding-left: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.tabItem-container {
+  list-style-type: none;
+  margin-left: 15px;
+  padding-left: 20px;
+}
+.active {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+}
+@media screen and (min-width: 768px) {
+  .tabItem-container {
+    margin-right: 18px;
+  }
+}
